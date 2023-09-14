@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+
+* {/* configuracion inicial para que se aplique en general */
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: 'Be Vietnam Pro', 'sans-serif';
+text-decoration: none;
+font-size: 1em;
+}
+
+.logo {
+max-width: 5em;
+border-radius: 2em;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1em;
+background-color: rgb(113, 126, 158);
+}
+
+.nav_list {
+display: flex;
+list-style-type: none;
+gap: 1em;
+}
+
+.nav_list li a {
+text-decoration: none;
+color: rgba(253, 214, 197, 0.884);
+font-size: 12px;
+
+}
+
+.abrir_menu,
+.cerrar_menu {
+display: none;
+color: rgba(253, 214, 197, 0.884);
+}
+
+@media screen and (max-width: 550px) {
+.abrir_menu,
+.cerrar_menu {
+display: block;
+border: 0;
+font-size: 1.2em;
+background-color: transparent;
+cursor: pointer;
+
+}
+
+.nav {
+opacity: 0;
+visibility: hidden;
+
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 1em;
+position:absolute;
+top: 0;
+right: 0;
+background-color: rgb(137, 126, 158);
+padding: 2em;
+box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .1);
+transition: opacity 0.5s ease, visibility 0.5s ease; /* Transición suave */ 
+} 
+
+.nav.visible {
+opacity: 1;
+visibility: visible;
+}
+
+.nav_list {
+flex-direction: column;
+align-items: end;
+}
+
+}
