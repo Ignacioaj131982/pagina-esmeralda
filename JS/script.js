@@ -11,7 +11,7 @@ nav.classList.remove("visible");
 })
 
 const grande = document.querySelector('.grande')
-const punto = document.querySelectorAll('.punto')
+const punto = document.querySelectorAll('.punto, .punto2, .punto3, .punto4, .punto5, .punto6, .punto8, .punto9, .punto10, .punto11, .punto12, .punto13, .punto14, .punto15, .punto16, .punto17, .punto18, .punto19, .punto20');
 
 // Cuando hago CLICK en cada punto
 //saber la posicion de ese punto
@@ -27,7 +27,7 @@ punto.forEach( ( cadaPunto , i )=> {
         // Guardar la posicion de ese PUNTO
         let posicion = i
         //Calculando el espacio que debe desplazarse el grande
-        let operacion = posicion * -50
+        let operacion = posicion * -5.26; // Cambia el valor a -33.33 para tres puntos
 
         //Movemos el grande
         grande.style.transform = `translateX(${ operacion }%)`
@@ -41,3 +41,5 @@ punto.forEach( ( cadaPunto , i )=> {
         punto[i].classList.add('activo')
     })
 })
+
+

@@ -51,7 +51,7 @@ background-color: rgba(238, 239, 241, 0.781);
 }
 
 .carrousel .grande {
-    width: 200%;
+    width: 2000%;
     
     display: flex;
     flex-flow: nowrap;
@@ -61,19 +61,21 @@ background-color: rgba(238, 239, 241, 0.781);
 
     transition: all .5s ease;
     transform: translateX(-0%);
-}
-
-.carrousel .img {
-    width: calc( 100% / 2 - 2em);
-    min-height: 10vh;
     
 }
 
+.carrousel .grande img {
+    width: 200px;
+    min-height: 150px;
+}
+
+
+
 .carrousel .puntos {
 width: 100%;
-margin: 1em 0 0;
 
-padding: .4em;
+
+
 display: flex;
 flex-flow: row nowrap;
 justify-content: center;
@@ -81,12 +83,166 @@ align-items: center;
 }
 
 .carrousel .punto {
-width: 1em;
-height: 1em;
+width: .7em;
+height: .7em;
 background-color:  rgb(113, 126, 158);
-margin: 1em 1em 0;  
+margin: 1em .2em 0;  
 list-style-type: none;
 border-radius: 2em;
+}
+
+.carrousel .punto3 {
+    width: .7em;
+    height: .7em;
+    background-color: rgb(122, 107, 102);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto4 {
+    width: .7em;
+    height: .7em;
+    background-color: rgb(239, 164, 81);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto5 {
+    width: .7em;
+    height: .7em;
+    background-color: rgb(54, 83, 127);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto6 {
+    width: .7em;
+    height: .7em;
+    background-color: rgb(169, 145, 57);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+
+.carrousel .punto8 {
+    width: .7em;
+    height: .7em;
+    background-color: rgb(193, 149, 122);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto9 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(42, 116, 165);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto10 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(42, 165, 159);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto11 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(42, 165, 93);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto12 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(165, 157, 42);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto13 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(165, 67, 42);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto14 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(81, 165, 42);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto15 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(165, 42, 149);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto16 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(165, 42, 42);
+    margin: 1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto17 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(42, 165, 93);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto18 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(165, 91, 42);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto19 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(85, 42, 165);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
+}
+
+.carrousel .punto20 {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(42, 165, 159);
+    margin:1em .2em 0;
+    list-style-type: none;
+    border-radius: 2em;
 }
 
 .carrousel .punto.activo {
