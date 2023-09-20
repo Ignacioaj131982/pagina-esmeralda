@@ -2,13 +2,18 @@ const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 
+
 abrir.addEventListener("click", () => {
-nav.classList.add("visible");
+
+    nav.classList.add("visible");
 })
 
 cerrar.addEventListener("click", () => {
 nav.classList.remove("visible");
 })
+
+
+
 
 const grande = document.querySelector('.grande')
 const punto = document.querySelectorAll('.punto, .punto2, .punto3, .punto4, .punto5, .punto6, .punto8, .punto9, .punto10, .punto11, .punto12, .punto13, .punto14, .punto15, .punto16, .punto17, .punto18, .punto19, .punto20');
