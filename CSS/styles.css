@@ -58,7 +58,7 @@ h1 {
     }
 
     .contenedor_carrousel2 {
-        height: 100vh;
+        height: 31.25em;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -136,6 +136,7 @@ h1 {
 left: -5px;
 }
 
+
 @media screen and (max-width: 550px) {
 .abrir_menu,
 .cerrar_menu {
@@ -163,17 +164,25 @@ right: 0;
 background: #283048;
 background: linear-gradient(to right, #859398, #283048);
 padding: 1em;
-
-
-transition: transform 0.5s ease; /* Transición suave */
+display: flex; 
+/*transition: transform 0.5s ease; /* Transición suave */
+transition: transform 0.5s ease, opacity 0.5s ease; /* Transiciones suaves para transform y opacidad */
 position: fixed;
 z-index: 1000;
+opacity: 0; /* Inicialmente invisible *
 
 } 
 
 .nav.visible {
 transform: translateX(0); /* Desplazamiento a la vista */
+    /*display: flex; /* Muestra nav_list cuando se hace clic en el icono */
+}
 
+.nav.visible {
+    transform: translateX(0); /* Desplazamiento a la vista */
+    
+    opacity: 1; /* Hacer visible con una transición suave */
+    display: flex; /* Muestra nav_list cuando se hace clic en el icono */
 }
 
 .nav_list {
