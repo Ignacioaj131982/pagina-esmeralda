@@ -348,3 +348,16 @@ bottom: 1em;
 
 
 }
+
+.form {
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+body {
+    background: #eeeff1;
+    background: linear-gradient(to right, #eeeff1, #859398);    
+}
