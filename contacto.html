@@ -18,12 +18,13 @@
 <h1 class="titulo">Contacto</h1>
 </header>
 <body>
-    <form class="form">
+    <form class="form" action="https://formspree.io/f/xrgwyrvd"
+    method="POST">
         <div class="form_container">
-            <h2 class="form_container">Contáctame</h2>
-            <input type="text" class="form__input" placeholder="Nombre">
-            <input type="email" class="form__input" placeholder="E-Mail">
-            <textarea class="form__input form__input--message" placeholder="Mensaje"></textarea>
+            <h2 class="form__title">Contactanos</h2>
+            <input type="text" class="form__input" placeholder="Nombre" name="name">
+            <input type="email" class="form__input" placeholder="E-Mail" name="email">
+            <textarea class="form__input form__input--message" placeholder="Mensaje" name="message"></textarea>
             <input type="submit" value="Enviar" class="form__cta">
         </div>
     </form>
