@@ -409,7 +409,7 @@ bottom: 1em;
 font-family: inherit;
 background: transparent;
 border: none;
-color: rgba(253, 214, 197, 0.884);
+color: #fdd6c5e1;
 font-size: 1.5rem;
 padding: .7em 0;
 cursor: pointer;
@@ -424,4 +424,67 @@ cursor: pointer;
 body {
     background: #eeeff1;
     background: linear-gradient(to right, #eeeff1, #859398);    
+}
+
+footer {
+display: flex;
+float: row;
+align-items: center;
+justify-content: space-between;
+padding: 1em;
+/*background: transparent;*/
+}
+
+.interlineado1 {
+    border-style: solid;
+    border-color: #fdd6c5e1;
+    border-width: 2px;
+    width: 40%;
+    height: 50%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    top: .5rem;
+}
+
+.interlineado2 {
+    border-style: solid;
+    border-color: #fdd6c5e1;
+    border-width: 2px;
+    width: 40%;
+    height: 50%;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    position: relative;
+    top: .5rem;
+    
+}
+
+.icons {
+    color: #283048;
+    font-size: 30px;
+    padding: 0 1rem;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+#gmail:hover {
+color: #db4a39;
+}
+
+#whatsapp:hover {
+    color: #25D366;
+}
+
+#facebook:hover {
+    color: #3b5998;
+}
+
+#instagram:hover {
+    color: #3f729b;
 }
