@@ -389,7 +389,7 @@ bottom: 1em;
     text-align: center;
     font-size: 1.9rem;
     margin-bottom: .4em;
-    color: rgba(253, 214, 197, 0.884);
+    color: #fdd6c5e1;
 
 }
 
@@ -435,7 +435,7 @@ body {
     background: linear-gradient(to right, #eeeff1, #859398);    
 }
 
-footer {
+.foot_cont {
 display: flex;
 float: row;
 align-items: center;
@@ -506,15 +506,64 @@ color: #db4a39;
 display: flex;
 }
 
+.ubicacion_container {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    color: #283048;
+    align-items: center;
+    align-content: center;
+}
+
 iframe {
     position: relative;
     width: 300px;
     margin: auto;
-    position: relative;
+    
     top: 2rem;
+}
 
+.locate_home {
+    font-size: 1.5em;
+    padding-left: .5em;
+    color: #806c4b;
+}
 
+.locate_map {
+    font-size: 1.5em;
+    color: #eb4334;
+}
 
-    
-    
+.foot_text {
+    margin: auto;
+    color: #283048;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: .5rem;
+    padding-bottom: 2rem;
+    }
+
+.info_legal {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    }
+
+.info_legal li a {
+    position: relative;
+    font-size: .6rem;
+    color: #283048;
+    bottom: 2rem;
+}
+
+.pol_privacidad {
+    text-align: justify;
+    color: #283048;
+    font-size: 10px;
+    padding: 1rem;
 }
