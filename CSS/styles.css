@@ -113,10 +113,41 @@ font-size: 20px;
     width: 98%;
 }
 
+.escondida_desk {
+    display: none;
+}
 
+}
 
+.escondida {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    text-align: justify;
+    color:#283048;
+    font-size: .9rem;
+    
+}
 
+.fotos img {
+    width: 16rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+    padding-bottom: 2rem;
+}
 
+.tit_escond {
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    color: #283048;
+    padding: 1em;
 }
 
 @media screen and (min-width: 899px) {
@@ -129,17 +160,61 @@ font-size: 20px;
         position: absolute;
         font-size: 30px;
         left: 7rem;
-    
-    
-        
-        
-    }
+        }
 
     .nav_list li a {
     font-size: 15px;
     }
 
+    .escondida {
+        display: none;
+        
+    }
     
+
+    
+    .tit_escond {
+        position: relative;
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+        color: #283048;
+        padding: 1em;
+    }
+
+    .escondida_desk {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    }
+    
+    .fotos_desk img {
+        width: 16rem;
+        height: auto;
+        margin: auto;
+        top: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .texto p {
+        font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
+        margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
+        margin-right: 1rem;
+        margin-top: 1rem;
+        text-align: justify;
+        color: #283048;
+    }
+
+    .sueños_desk {
+        font-style: italic;
+    }
+
+    #desk_sombr {
+        position: relative;
+        margin: auto;
+    }
+
+
 }
 
 
@@ -360,6 +435,12 @@ bottom: 1em;
     font-size: 23px;
 }
 
+.escondida_desk {
+    display: none;
+}
+
+
+
 }
 
 .form {
@@ -565,5 +646,17 @@ iframe {
     text-align: justify;
     color: #283048;
     font-size: 10px;
-    padding: 1rem;
+    padding: 1rem 1rem;
 }
+
+
+
+.tit_escond {
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    color: #283048;
+    padding: 1em;
+}
+
