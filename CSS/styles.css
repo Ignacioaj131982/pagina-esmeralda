@@ -6,7 +6,7 @@ margin: 0px;
 box-sizing: border-box;
 font-family: 'Be Vietnam Pro', 'sans-serif';
 text-decoration: none;
-font-size: 1em;
+
 }
 
 .logo {
@@ -86,10 +86,10 @@ font-size: 20px;
         transition: all 1s ease;
     }
 
-@media screen and (max-width: 831px) {
+@media screen and (max-width: 700px) {
 
     .nav_list li a {
-        font-size: 12px;
+        font-size: 15px;
         }
 
 .columna {
@@ -119,7 +119,7 @@ font-size: 20px;
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 899px) {
     .header {
     display: flex;
     flex-direction: row;
@@ -128,7 +128,8 @@ font-size: 20px;
         .principal {
         position: absolute;
         font-size: 30px;
-        left: 120px;
+        left: 7rem;
+    
     
         
         
@@ -147,6 +148,8 @@ font-size: 20px;
 .cerrar_menu {
 display: none;
 color: rgba(253, 214, 197, 0.884);
+position: relative;
+top: .2rem;
 }
 
 .abrir_menu:hover {
@@ -289,12 +292,14 @@ left: -5px;
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 897px) {
 .abrir_menu,
 .cerrar_menu {
 display: block;
 border: 0;
-font-size: 1.2em;
+
+
+font-size: 1.5em;
 background-color: transparent;
 cursor: pointer;
 
@@ -349,6 +354,10 @@ bottom: 1em;
 .form {
     padding: 3.5em 1em;
 
+}
+
+.principal {
+    font-size: 23px;
 }
 
 }
@@ -465,7 +474,7 @@ padding: 1em;
 .icons {
     color: #283048;
     font-size: 30px;
-    padding: 0 1rem;
+    padding: 0 .4rem;
 }
 
 .icons:hover {
@@ -487,4 +496,25 @@ color: #db4a39;
 
 #instagram:hover {
     color: #3f729b;
+}
+
+#map:hover {
+    color: #9bbff4;
+}
+
+.ubicacion {
+display: flex;
+}
+
+iframe {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+
+
+
+    
+    
 }
