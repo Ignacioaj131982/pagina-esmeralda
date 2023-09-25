@@ -214,6 +214,67 @@ font-size: 20px;
         margin: auto;
     }
 
+    .escondida_desk {
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 8%;
+    }
+
+    .esmepics {
+        display: flex;
+        margin: auto;
+        
+        padding: 4px;
+        align-items: center;
+        
+    }
+    
+    .esmepics img {
+        padding: 1rem;
+        
+        width: 100%;
+
+    }
+    
+    #playa3 {
+        position: relative;
+        width: 90% ;
+        padding-left: 5rem;
+        bottom: 7rem;
+    }
+    
+
+    #playa4 {
+        position: relative;
+        width: 70% ;
+        padding-left: 5rem;
+        bottom: 6rem;
+        left: 4rem;
+    }
+    
+    #bosqueesme1 {
+        position: relative;
+        width: 80%;
+        bottom: 6rem;
+    }
+
+    #playa8huevo {
+        position: relative;
+        width: 90%;
+        bottom: 3rem;
+    }
+    
+    #playa6 {
+        position: relative;
+        width: 100%;
+        bottom: 3rem;
+        left: 3rem;
+    }
+
+
 
 }
 
