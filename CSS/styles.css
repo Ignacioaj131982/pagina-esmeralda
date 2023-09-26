@@ -83,7 +83,117 @@ font-size: 20px;
 
     .nav_list li:hover {
         transform: scale(1.1);
-        transition: all 1s ease;
+        transition: all 
+        1s ease;
+    }
+
+
+    .servicios_desk {
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 8%;
+    }
+    
+    .servicios_desk1 {
+        width: 90%;
+        min-height: 50vh;
+        display: flex;
+        
+        padding: 50px 10%;
+        
+    }
+    
+    .texto_servicios1 {
+        position: relative;
+        padding: 1rem;
+        width: 80%;
+        height: auto;
+        
+    
+    }
+    
+    .texto_servicios2 {
+        padding-left: 1rem;
+        width: 40%;
+        height: auto;
+        
+        left: 10vw;
+    }
+    
+    
+    .texto_servicios1,
+    .texto_servicios2 p {
+        font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
+        margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+        color: #283048;
+    }
+    
+    .texto_servicios2 ul li {
+        font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
+        margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
+        margin-right: 1rem;
+        text-align: justify;
+        color: #283048;
+        top: 2rem;
+    }
+    
+    .caracteristicas {
+        list-style: none;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    
+    
+    
+    
+    #fuego {
+        position: relative;
+        margin: auto;
+        
+        
+        width: 300px;
+        height: auto;
+        }
+
+    .servicios {
+        padding: 2rem;
+    }
+    
+    .texto_servicios4 {
+        color:#283048;
+    }
+    
+    #casacompleta7 {
+        
+        bottom: 40vh;
+    }
+
+    .texto_servicios3 {
+        color:#283048;
+        text-align: justify;
+    }
+    
+
+
+    #timon {
+        width: 300px;
+        margin: auto;
+        top: 50vh;
+        position: relative;
+        right: 20vw;
+    }
+    
+    .fotos_servicios {
+        width: 150px;
+        height: auto;
     }
 
 @media screen and (max-width: 700px) {
@@ -117,6 +227,17 @@ font-size: 20px;
     display: none;
 }
 
+.servicios_desk {
+    display: none;
+}
+
+.servicios_desk1 {
+    display: none;
+}
+
+.texto_servicios2 {
+    display: none;
+}
 }
 
 .escondida {
@@ -939,97 +1060,9 @@ iframe {
 }
 
 .servicios_desk {
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 8%;
+    display: none;
 }
 
 .servicios_desk1 {
-    width: 90%;
-    min-height: 50vh;
-    display: flex;
-    
-    padding: 50px 10%;
-    
-}
-
-.texto_servicios1 {
-    position: relative;
-    padding: 1rem;
-    width: 80%;
-    height: auto;
-    
-
-}
-
-.texto_servicios2 {
-    padding-left: 1rem;
-    width: 40%;
-    height: auto;
-    
-    left: 10vw;
-}
-
-
-.texto_servicios1,
-.texto_servicios2 p {
-    font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
-    margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    text-align: justify;
-    color: #283048;
-}
-
-.texto_servicios2 ul li {
-    font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
-    margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
-    margin-right: 1rem;
-    text-align: justify;
-    color: #283048;
-    top: 2rem;
-}
-
-.caracteristicas {
-    list-style: none;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-
-
-
-
-#fuego {
-    position: relative;
-    margin: auto;
-    
-    
-    width: 300px;
-    height: auto;
-
-
-}
-
-
-#casacompleta7 {
-    
-    bottom: 40vh;
-}
-
-#timon {
-    width: 300px;
-    margin: auto;
-    top: 50vh;
-    position: relative;
-    right: 20vw;
-}
-
-.fotos_servicios {
-    width: 150px;
-    height: auto;
+    display: none;
 }
