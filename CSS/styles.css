@@ -227,6 +227,10 @@ font-size: 20px;
     display: none;
 }
 
+.escondida_desk1 {
+    display: none;
+}
+
 .servicios_desk {
     display: none;
 }
@@ -291,6 +295,10 @@ font-size: 20px;
         display: none;
         
     }
+
+    .servicios {
+        display: none;
+    }
     
 
     
@@ -317,6 +325,32 @@ font-size: 20px;
         padding-bottom: 2rem;
     }
     
+    .texto1 p {
+        font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
+        margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
+        margin-right: 1rem;
+        margin-top: 1rem;
+        text-align: justify;
+        color: #283048;
+        position: relative;
+        bottom: 6rem;
+
+
+    }
+
+    .texto2 p {
+        font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
+        margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
+        margin-right: 1rem;
+        margin-top: 1rem;
+        text-align: justify;
+        color: #283048;
+        position: relative;
+        bottom: 6rem;
+
+
+    }
+
     .texto p {
         font-size: 1rem; /* Ajusta el tamaño de fuente según sea necesario */
         margin-left: 1rem; /* Agrega espacio entre la imagen y el texto */
@@ -482,6 +516,12 @@ font-size: 20px;
         width: 300px;
         height: auto;
 
+    }
+
+    #fuego1 {
+        position: relative;
+        padding: 0;
+        bottom: 20rem;
 
     }
 
@@ -504,6 +544,19 @@ font-size: 20px;
         height: auto;
     }
 
+    #timon2 {
+
+    }
+
+    .escondida_desk1 {
+        width: 100%;
+        
+        display: flex;
+        gap: 3rem;
+        padding-left: 7rem;
+        
+        
+    }
 
 }
 
@@ -726,6 +779,10 @@ bottom: 1em;
 }
 
 .escondida_desk {
+    display: none;
+}
+
+.escondida_desk1 {
     display: none;
 }
 
